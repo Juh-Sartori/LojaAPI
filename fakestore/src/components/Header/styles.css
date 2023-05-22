@@ -13,15 +13,19 @@
     display:flex;
     flex-direction: row;
 
-    justify-content: space-around;
+    justify-content: space-between;
 
+    align-items: center;
+    cursor: pointer;
+}
+
+.name{
+    display: flex;
     align-items: center;
 }
 
 .topo ul{
-    width: 54px;
-    height: 27px;
-
+    
     list-style: none;
     font-family: 'Poppins';
     
@@ -30,6 +34,12 @@
 
     color:#1E1E1E;
     display:flex;
-    gap: 50px;
+    gap: 48px;
 
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 48px;
 }
