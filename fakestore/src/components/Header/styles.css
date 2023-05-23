@@ -38,6 +38,11 @@
 
 }
 
+li:hover {
+    color: #1f839c;
+    cursor: pointer;
+  }
+
 .icon{
     display: flex;
     align-items: center;
