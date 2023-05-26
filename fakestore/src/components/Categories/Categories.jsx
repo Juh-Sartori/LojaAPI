@@ -6,7 +6,9 @@ const Categories = () => {
   return (
     <div className="CategoriesCenter">
       <Topo />
-      <CardCategories Imagem="Imagem" title="44444" />
+      <div className="CardCategoriesCenter">
+        <CardCategories Imagem="Imagem" title="44444" />
+      </div>
     </div>
   );
 };
