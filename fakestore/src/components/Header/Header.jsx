@@ -7,14 +7,13 @@ const Header = ()=>{
     return (
 
         <header className="topo">
-            <div className="name">
-                    GREENMIND
+            <div id="logo">GREENMIND</div>
+           
                 <ul>
                     <li>Home</li>  
                     <li>Products</li>
                     <li>Contact</li>
                 </ul>
-            </div>
             
             <div className="icon">
                 <BsCart/>

@@ -1,0 +1,26 @@
+.cardsProducts{
+    background-color: purple;
+    width: auto;
+    height: auto;
+   margin-top: 47px;
+}
+
+.cardsProducts h1{
+    background-color: green;
+    width: 240px;
+    height: 300px;
+    margin-bottom: 12px;
+}
+
+.cardsProducts h3{
+    background-color: orange;
+    margin-bottom: 7px;
+   width: 240px;
+    
+}
+
+.cardsProducts p{
+    background-color: blueviolet;
+    margin-bottom: 7px;
+   width:240px;
+}

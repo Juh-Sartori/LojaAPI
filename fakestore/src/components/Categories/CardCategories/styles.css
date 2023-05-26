@@ -1,0 +1,6 @@
+.CardCategories{
+    background-color: yellowgreen;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}

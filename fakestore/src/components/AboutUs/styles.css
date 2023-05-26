@@ -1,0 +1,15 @@
+
+.containerAboutUs{
+    background-color:#C1DCDC;
+    
+    height: 513px;
+    width: 100%;
+    
+    font-family: 'Poppins', sans-serif;
+    
+    padding: 74px 96px;
+}
+
+.cards{
+    display: flex;
+}

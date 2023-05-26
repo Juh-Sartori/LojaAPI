@@ -1,0 +1,16 @@
+.cardbestSelling{
+    background-color: antiquewhite;
+    width: 256px;
+    height: 264px;
+    margin-top: 47px;
+}
+
+.cardbestSelling h2{
+    background-color: orange;
+    margin-bottom: 25px;
+}
+
+.cardbestSelling p {
+    background-color: blueviolet;
+    margin-bottom: 50px;
+}
