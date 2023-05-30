@@ -1,26 +1,33 @@
 .cardsProducts{
-    background-color: purple;
-    width: auto;
-    height: auto;
-   margin-top: 47px;
+   max-width: 250px;
+    height: 363px;
+    margin-top: 47px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
 
-.cardsProducts h1{
-    background-color: green;
+.cardsProducts img{
+    /* background-color: green; */
     width: 240px;
     height: 300px;
     margin-bottom: 12px;
 }
 
 .cardsProducts h3{
-    background-color: orange;
-    margin-bottom: 7px;
-   width: 240px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
     
 }
 
 .cardsProducts p{
-    background-color: blueviolet;
-    margin-bottom: 7px;
-   width:240px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: rgba(30, 30, 30, 0.5);
 }

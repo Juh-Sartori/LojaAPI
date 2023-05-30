@@ -11,7 +11,10 @@ const CardBest = () => {
         Easiest way to healthy life
         <br /> by buying your favorite plants
       </p>
-      <button>See more</button>
+      <button>
+        <label>See more</label>
+        <img src="/bestSelling/arrow.svg" alt="" />
+      </button>
     </div>
   );
 };

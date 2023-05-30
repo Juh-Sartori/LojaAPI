@@ -1,13 +1,38 @@
+import TitleSection from "../TitleSection/TitleSection";
+import Product from "../Vitrine/Product/Product";
 import CardCategories from "./CardCategories/CardCategories";
-import Topo from "./Topo/Topo";
+
 import "./styles.css";
 
 const Categories = () => {
   return (
     <div className="CategoriesCenter">
-      <Topo />
+      <TitleSection
+        title="Categories"
+        subtitle=" Find what you are looking for"
+      />
+
       <div className="CardCategoriesCenter">
-        <CardCategories Imagem="Imagem" title="44444" />
+        <CardCategories
+          Imagem="/categories/plantCategory.png"
+          title="Natural Plants"
+          subtitle="Horem ipsum dolor sit amet, consectetur adipiscing elit."
+          Explore="Explore"
+        />
+
+        <CardCategories
+          Imagem="/categories/plantCategory.png"
+          title="Natural Plants"
+          subtitle="Horem ipsum dolor sit amet, consectetur adipiscing elit."
+          Explore="Explore"
+        />
+
+        <CardCategories
+          Imagem="/categories/plantCategory.png"
+          title="Natural Plants"
+          subtitle="Horem ipsum dolor sit amet, consectetur adipiscing elit."
+          Explore="Explore"
+        />
       </div>
     </div>
   );

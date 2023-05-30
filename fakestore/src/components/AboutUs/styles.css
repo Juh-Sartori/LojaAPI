@@ -2,14 +2,24 @@
 .containerAboutUs{
     background-color:#C1DCDC;
     
-    height: 513px;
+    min-height: 513px;
     width: 100%;
     
     font-family: 'Poppins', sans-serif;
-    
-    padding: 74px 96px;
+   
+   
 }
 
+.containerAboutUs .text{
+    margin-bottom: 48px;
+}
+
+
 .cards{
+
     display: flex;
+   font-size: 40px;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
 }

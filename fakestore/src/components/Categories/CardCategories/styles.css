@@ -1,6 +1,55 @@
 .CardCategories{
-    background-color: yellowgreen;
-    height: 50px;
+    
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    width: 352px;
+    height: 692px;
+}
+
+.CardCategories img{
+    width: 352px;
+    height: 512px;
+}
+
+.CardCategories h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1E1E1E;
+}
+
+.CardCategories p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.CardCategories a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+#arrowCardCategory{
+    width: 24px;
+    height: 20px;
+}
+
+.buttonExplore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }

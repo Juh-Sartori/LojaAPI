@@ -1,3 +1,32 @@
-.cardss{
-    height: 52px;
+.AboutUsCards{
+    display: flex;
+    width: 400px;
+    height: 213px;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 50px;
+    
 }
+
+.AboutUsCards h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 12px;
+    
+}
+
+.AboutUsCards p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(30, 30, 30, 0.5);
+}
+

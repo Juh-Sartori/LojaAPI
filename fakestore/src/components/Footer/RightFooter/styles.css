@@ -1,0 +1,25 @@
+.textRight{
+  
+    text-align:left;
+    height: 180px;
+}
+.textRight h1{
+    margin-bottom: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #1E1E1E;
+}
+.textRight h2{
+    margin-bottom: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: rgba(30, 30, 30, 0.5);
+}

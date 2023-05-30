@@ -10,6 +10,7 @@
     align-items: center;
     
     padding:20px 90px;
+
 }
 
 #logo{
@@ -33,16 +34,28 @@
 .icon{
     display: flex;
     flex-direction: row;
-    gap:15px;
+    gap:48px;
 }
 
-li:hover {
+.links:hover {
     color: #1f839c;
     cursor: pointer;
   }
 
 .icon p{
     margin-top: -4px;
+}
+
+.links{
+    text-decoration: none;
+    color: #1E1E1E;
+    opacity: 70%;
+}
+
+.active{
+    color: #1E1E1E;
+    opacity: 100%;
+    font-weight: 700;
 }
 /* .topo{
     background-color: #C1DCDC;

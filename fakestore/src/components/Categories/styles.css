@@ -1,11 +1,12 @@
 .CategoriesCenter{
-    background-color: bisque;
-    height: 513px;
+    height: 977px;
     width: 100%;
-
+    
 }
 
 .CardCategoriesCenter{
-    background-color: red;
-    height: 200%;
+    height: auto;
+    margin-top: 59px;
+    display: flex;
+    justify-content: space-around;
 }

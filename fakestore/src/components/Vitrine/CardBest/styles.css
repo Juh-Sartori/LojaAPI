@@ -1,16 +1,53 @@
 .cardbestSelling{
-    background-color: antiquewhite;
+background-color: #FFFF;
     width: 256px;
     height: 264px;
     margin-top: 47px;
 }
 
 .cardbestSelling h2{
-    background-color: orange;
-    margin-bottom: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E1E1E;
+    text-align: left;
+    margin-bottom: 12px;
 }
 
 .cardbestSelling p {
-    background-color: blueviolet;
-    margin-bottom: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+    text-align: left;
+    margin-bottom: 24px;
 }
+
+.cardbestSelling button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 167px;
+    height: 51px;
+    background: #C1DCDC; 
+    border-radius: 8px;
+    border: none;
+}
+
+.cardbestSelling button label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+
+color: #1E1E1E;
+}
+    

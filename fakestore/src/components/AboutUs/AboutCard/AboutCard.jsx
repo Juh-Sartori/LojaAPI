@@ -1,9 +1,12 @@
 import "./styles.css";
 
-const AboutCard = (props) => {
-  const { title, subtitle } = props;
+const AboutCard = ({ title, subtitle, icone }) => {
+  const Icone = icone;
   return (
-    <div className="cardss">
+    <div className="AboutUsCards">
+      <div>
+        <Icone />
+      </div>
       <h2>{title}</h2>
       <p>{subtitle}</p>
     </div>
