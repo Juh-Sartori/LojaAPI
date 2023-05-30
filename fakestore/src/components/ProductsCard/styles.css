@@ -1,0 +1,84 @@
+.listOfProducts{
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+    margin-bottom: 57px;
+    justify-content: space-between;
+    
+}
+
+.leftSearch{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+    margin-left:68px;
+ 
+}
+
+.rightSearch{
+    font-family: 'Poppins';                                                                  
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+    background: #FFFFFF;
+    border: 1px solid #C1DCDC;
+    border-radius: 12px;
+    margin-right: 60px;
+
+}
+
+.search h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;    
+    color: #1E1E1E;
+}
+
+.search input{
+    background: #FFFFFF;
+    width: 449px;
+    height: 64px;
+    border: 1px solid #C1DCDC;
+    border-radius: 12px;
+}
+
+::placeholder{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: rgba(30, 30, 30, 0.5);
+}
+
+select{
+    background: #FFFFFF;
+    width: 449px;
+    height: 64px;
+    border: 1px solid #C1DCDC;
+    border-radius: 12px;
+
+    font-family: 'Poppins';                                                                  
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+}
+

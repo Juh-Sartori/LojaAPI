@@ -13,17 +13,17 @@ const Vitrine = () => {
         <Product
           Imagem="./bestSelling/plant.png"
           titleProduct="Natural Plants"
-          subtitleProduct="₱ 1,400.00"
+          subtitleProduct=" 1,400.00"
         />
         <Product
           Imagem="./bestSelling/plant.png"
           titleProduct="Artificial Plants"
-          subtitleProduct="₱ 1,400.00"
+          subtitleProduct=" 1,400.00"
         />
         <Product
           Imagem="./bestSelling/plant.png"
           titleProduct="Artificial Plants"
-          subtitleProduct="₱ 1,400.00"
+          subtitleProduct=" 1,400.00"
         />
       </div>
     </div>
