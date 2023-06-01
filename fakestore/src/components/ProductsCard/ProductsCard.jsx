@@ -12,7 +12,14 @@ const requester = axios.create({
 
 async function getProductsList() {
   const response = await requester("http://localhost:3030/products");
-  return response.data;
+  const productsDataBase = response.data;
+
+  // para filtrar
+  const filterproducts = productsDataBase.filter(
+    (response) => response.category === "Mens"
+  );
+
+  return filterproducts;
 }
 
 getProductsList();
