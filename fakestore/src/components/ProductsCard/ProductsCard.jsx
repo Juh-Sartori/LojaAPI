@@ -3,6 +3,8 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 import "./styles.css";
+import { filter, get, map } from "underscore";
+import { BsDatabase } from "react-icons/bs";
 
 const requester = axios.create({
   headers: {
@@ -12,14 +14,18 @@ const requester = axios.create({
 
 async function getProductsList() {
   const response = await requester("http://localhost:3030/products");
-  const productsDataBase = response.data;
+  // const productsDataBase = response.data;
+  return response.data;
+  // if ( === "Mens") {
+  //   const filt = filter(productsDataBase);
+  //   return filt;
+  // }
+  // // para filtrar
+  // const filterproducts = productsDataBase.filter(
+  //   (response) => response.category === "mens"
+  // );
 
-  // para filtrar
-  const filterproducts = productsDataBase.filter(
-    (response) => response.category === "Mens"
-  );
-
-  return filterproducts;
+  // return productsDataBase;
 }
 
 getProductsList();
